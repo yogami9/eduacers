@@ -1,0 +1,29 @@
+.questions-section {
+    padding: 60px 0;
+  }
+  
+  .questions-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .questions-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .questions-section li {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 15px;
+  }
+  
+  .questions-section h3 {
+    margin: 0;
+  }
+  
+  .questions-section p {
+    margin: 5px 0 0;
+  }
