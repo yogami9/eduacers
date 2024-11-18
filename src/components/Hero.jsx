@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import heroBg from './assets/images/hero-bg.svg'; 
+=======
+import heroBg from './assets/images/hero-bg.svg'; // Adjust the path according to your directory structure
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
 import heroBanner1 from './assets/images/hero-banner-1.jpg';
 import heroBanner2 from './assets/images/hero-banner-2.jpg';
 import heroShape1 from './assets/images/hero-shape-1.svg';
@@ -10,7 +14,11 @@ const Hero = () => {
       className="section hero has-bg-image" 
       id="home" 
       aria-label="home" 
+<<<<<<< HEAD
       style={{ backgroundImage: `url(${heroBg})` }} 
+=======
+      style={{ backgroundImage: `url(${heroBg})` }} // Using imported image
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
     >
       <div className="container">
         <div className="hero-content">

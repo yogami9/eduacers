@@ -10,8 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
+<<<<<<< HEAD
     "axios": "^1.7.7",
     "dotenv": "^16.4.5",
+=======
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
     "ionicons": "^7.4.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"

@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 import React, { useState } from 'react';
 import logo from './assets/images/logo.svg';
 import ContactInfo from './ContactInfo'; // Import the ContactInfo component
+=======
+import { useState } from 'react';
+import logo from './assets/images/logo.svg';
+
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
 
 const Header = () => {
   const [isNavbarActive, setIsNavbarActive] = useState(false);
@@ -11,7 +17,13 @@ const Header = () => {
 
   return (
     <>
+<<<<<<< HEAD
       <ContactInfo /> {/* Add the ContactInfo component here */}
+=======
+     
+
+      {/* Original Header Component */}
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
       <header className="header" data-header>
         <div className="container">
           <nav className={`navbar ${isNavbarActive ? 'active' : ''}`} data-navbar>
@@ -30,7 +42,11 @@ const Header = () => {
               </button>
             </div>
             <ul className="navbar-list">
+<<<<<<< HEAD
               {['Home', 'About', 'Testimonials', 'Questions', 'Contact'].map((link, index) => (
+=======
+              {['Home', 'About', 'Testimonials', 'Blog', 'Contact'].map((link, index) => (
+>>>>>>> 22da6df797c04a1d3db56cf7c296fb8d1845fdc1
                 <li className="navbar-item" key={index}>
                   <a href={`#${link.toLowerCase()}`} className="navbar-link" data-nav-link>
                     {link}
